@@ -5,8 +5,8 @@ import androidx.compose.runtime.State
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.debugInspectorInfo
 import androidx.compose.ui.unit.Dp
-import com.example.flo.compose.recomposition.modifier.element.LambdaSizeElement
-import com.example.flo.compose.recomposition.modifier.element.StateSizeElement
+import com.markus.droidcon2024.recompositions.modifier.element.LambdaSizeElement
+import com.markus.droidcon2024.recompositions.modifier.element.StateSizeElement
 
 @Stable
 fun Modifier.height(height: State<Dp>) = this.then(

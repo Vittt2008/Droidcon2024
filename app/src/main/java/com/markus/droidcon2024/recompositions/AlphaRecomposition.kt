@@ -1,4 +1,4 @@
-package com.markus.droidcon2024
+package com.markus.droidcon2024.recompositions
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween

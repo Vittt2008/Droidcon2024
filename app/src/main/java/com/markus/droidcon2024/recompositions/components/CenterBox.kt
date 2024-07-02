@@ -1,4 +1,4 @@
-package com.markus.droidcon2024.components
+package com.markus.droidcon2024.recompositions.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope

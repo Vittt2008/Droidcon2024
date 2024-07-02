@@ -1,4 +1,4 @@
-package com.markus.droidcon2024.components
+package com.markus.droidcon2024.recompositions.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.example.flo.compose.recomposition.modifier.background
+import com.markus.droidcon2024.recompositions.modifier.background
 
 @Composable
 fun BackgroundColumn(colorBackground: Color, content: @Composable ColumnScope.() -> Unit) {

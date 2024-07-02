@@ -1,4 +1,4 @@
-package com.example.flo.compose.recomposition.modifier
+package com.markus.droidcon2024.recompositions.modifier
 
 import androidx.compose.runtime.State
 import androidx.compose.ui.Modifier
@@ -7,8 +7,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.platform.debugInspectorInfo
-import com.example.flo.compose.recomposition.modifier.modifier.LambdaBackgroundModifier
-import com.example.flo.compose.recomposition.modifier.modifier.StateBackgroundModifier
+import com.markus.droidcon2024.recompositions.modifier.modifier.LambdaBackgroundModifier
+import com.markus.droidcon2024.recompositions.modifier.modifier.StateBackgroundModifier
 
 fun Modifier.background(
     color: State<Color>,

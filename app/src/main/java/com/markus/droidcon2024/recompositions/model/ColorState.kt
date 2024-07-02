@@ -1,9 +1,9 @@
-package com.markus.droidcon2024.model
+package com.markus.droidcon2024.recompositions.model
 
 import androidx.compose.ui.graphics.Color
-import com.markus.droidcon2024.model.ColorState.BLUE
-import com.markus.droidcon2024.model.ColorState.PURPLE
-import com.markus.droidcon2024.model.ColorState.RED
+import com.markus.droidcon2024.recompositions.model.ColorState.BLUE
+import com.markus.droidcon2024.recompositions.model.ColorState.PURPLE
+import com.markus.droidcon2024.recompositions.model.ColorState.RED
 
 enum class ColorState {
     BLUE, PURPLE, RED

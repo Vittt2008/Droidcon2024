@@ -1,4 +1,4 @@
-package com.markus.droidcon2024
+package com.markus.droidcon2024.recompositions
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
@@ -12,10 +12,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.flo.compose.recomposition.modifier.background
-import com.markus.droidcon2024.components.RadioButtons
-import com.markus.droidcon2024.model.ColorState.RED
-import com.markus.droidcon2024.model.color
+import com.markus.droidcon2024.recompositions.modifier.background
+import com.markus.droidcon2024.recompositions.components.RadioButtons
+import com.markus.droidcon2024.recompositions.model.ColorState.RED
+import com.markus.droidcon2024.recompositions.model.color
 
 @Preview
 @Composable

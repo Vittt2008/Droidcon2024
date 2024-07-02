@@ -1,4 +1,4 @@
-package com.example.flo.compose.recomposition.modifier.modifier
+package com.markus.droidcon2024.recompositions.modifier.modifier
 
 import androidx.compose.runtime.State
 import androidx.compose.ui.draw.DrawModifier

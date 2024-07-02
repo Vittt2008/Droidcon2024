@@ -1,4 +1,4 @@
-package com.markus.droidcon2024
+package com.markus.droidcon2024.recompositions
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.layout.height
@@ -12,7 +12,7 @@ import androidx.compose.ui.layout.layout
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
-import com.markus.droidcon2024.components.CenterBox
+import com.markus.droidcon2024.recompositions.components.CenterBox
 import com.example.flo.compose.recomposition.modifier.height
 
 @Preview
